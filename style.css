@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn-style{
+    @apply p-3 rounded text-xl 
+
+}
+.num{
+    @apply bg-gray-600 hover:bg-gray-700
+}
+.symbols{
+    @apply bg-yellow-500 hover:bg-yellow-700
+}
