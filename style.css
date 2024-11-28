@@ -5,7 +5,7 @@
 
 
 .btn-style{
-    @apply p-3 rounded text-xl 
+    @apply p-3 rounded text-xl active:opacity-70
 
 }
 .num{
