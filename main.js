@@ -70,7 +70,9 @@ for( let i = 0; i<buttonEl.length; i++){
                 display.value = ""
             }
             else if("%" === value){
-                display.value = Number(display.value) / 100
+                if(display.value !== ""){
+                    display.value = Number(display.value) / 100
+                }
             }
             else if( display.value !== "" && display.value !== "0"){
                 if(display.value[0] === "-"){
